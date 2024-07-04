@@ -1,22 +1,23 @@
-/* Importation de Bootstrap */
-@import "../node_modules/bootstrap/scss/bootstrap";
+// Importation de Bootstrap
+@import "~bootstrap/scss/bootstrap";
 
-/* Styles pour le corps de la page */
+// Vos styles personnalisés ici
 body {
     background-color: beige;
+    padding-left: 20px; // Ajout de padding à gauche pour décaler le contenu
 }
 
-/* Importation de polices depuis Google Fonts */
+// Importation de polices depuis Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
 
-/* Styles pour les boutons */
+// Styles pour les boutons
 button {
     font-family: Raleway;
     font-weight: 300;
     font-size: 18px;
     color: #264653;
     background: linear-gradient(90deg, #00b4d8 0%, #0077b6 100%);
-    padding: 10px 30px;
+    padding: 10px 30px ;
     border: 2px solid #0066cc;
     border-radius: 50px;
     transition: 1000ms;
@@ -37,20 +38,19 @@ button:hover {
     border: solid 2px #0066cc;
 }
 
-/* Styles pour les inputs (décommentez si nécessaire) */
-/*
 input {
-    // Vos styles pour les inputs ici
+    margin: 20px 0; // Marge supérieure et inférieure de 10px, marge latérale automatique
 }
-*/
 
-/* Styles pour les titres h1 et h2, et les listes ul (décommentez si nécessaire) */
-/*
 h1 {
-    // Vos styles pour h1 ici
+    font-size: 50px;
+    margin: 20px 0; // Marge supérieure et inférieure de 10px, marge latérale automatique
 }
 
-h2, ul {
-    // Vos styles pour h2 et ul ici
+.taskInput {
+    margin: 20px; // Marge de 10px sur tous les côtés
 }
-*/
+
+h2 {
+    margin: 20px; // Marge de 10px sur tous les côtés
+}

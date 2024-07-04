@@ -28,8 +28,10 @@ function App() {
 
   return (
     <div className="App">
+      <header>
       <h1>My Todo App</h1>
-      <label htmlFor="taskInput">Add Task</label>
+      </header>
+      <label class="taskInput">Add Task</label>
       <input type="text" id="taskInput" ref={taskInputRef} />
       <button onClick={addTask}>Add</button>
 
