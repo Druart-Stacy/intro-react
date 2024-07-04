@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap");
+body {
+  background-color: beige;
+}
+
+button {
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: 18px;
+  color: #264653;
+  background: linear-gradient(90deg, #00b4d8 0%, #0077b6 100%);
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: lowercase;
+}
+
+button:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(0px);
+  background: linear-gradient(90deg, #00b4d8 0%, #0077b6 100%);
+  color: #0066cc;
+  border: solid 2px #0066cc;
+}/*# sourceMappingURL=style.css.map */
